@@ -61,25 +61,6 @@ public class BuscarFrame extends JFrame {
 
 	int xMouse, yMouse;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					BuscarFrame buscarFrame = new BuscarFrame();
-					buscarFrame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * Create the frame.
-	 */
 	public BuscarFrame() {
 
 		setIconImage(Toolkit.getDefaultToolkit().getImage(BuscarFrame.class.getResource("/imagenes/lOGO-50PX.png")));

@@ -66,25 +66,6 @@ public class ReservasFrame extends JFrame {
 	private boolean indicador = false;
 	private Double totalReserva;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					ReservasFrame frame = new ReservasFrame();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * Create the frame.
-	 */
 	public ReservasFrame() {
 
 		setIconImage(Toolkit.getDefaultToolkit().getImage(ReservasFrame.class.getResource("/imagenes/aH-40px.png")));

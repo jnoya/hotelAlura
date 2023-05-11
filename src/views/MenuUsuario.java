@@ -26,25 +26,6 @@ public class MenuUsuario extends JFrame {
 	private JLabel labelExit;
 	private DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					MenuUsuario frame = new MenuUsuario();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * Create the frame.
-	 */
 	public MenuUsuario() {
 
 		setIconImage(Toolkit.getDefaultToolkit().getImage(MenuUsuario.class.getResource("/imagenes/aH-40px.png")));

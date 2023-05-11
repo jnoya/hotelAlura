@@ -24,26 +24,6 @@ public class Tabelas extends JFrame {
 	private JLabel labelExit;
 	int xMouse, yMouse;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Tabelas frame = new Tabelas();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-
-	}
-
-	/**
-	 * Create the frame.
-	 */
 	public Tabelas() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Tabelas.class.getResource("/imagenes/lOGO-50PX.png")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -53,25 +53,6 @@ public class ListadosFrame extends JFrame {
 	private JScrollPane scrollArrecadacao, scrollReservasApagadas;
 	private JButton btnAtras, btnExit, btnListar, btnEditar, btnDeletar;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					ListadosFrame listadosFrame = new ListadosFrame();
-					listadosFrame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * Create the frame.
-	 */
 	public ListadosFrame() {
 
 		setIconImage(Toolkit.getDefaultToolkit().getImage(ListadosFrame.class.getResource("/imagenes/lOGO-50PX.png")));

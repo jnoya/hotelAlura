@@ -33,25 +33,6 @@ public class LoginFrame extends JFrame {
 	int xMouse, yMouse;
 	private JLabel labelExit;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					LoginFrame loginFrame = new LoginFrame();
-					loginFrame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * Create the frame.
-	 */
 	public LoginFrame() {
 		setResizable(false);
 		setUndecorated(true);
